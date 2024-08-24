@@ -11,8 +11,6 @@ window.resizable(False, False)  # =====setting a fixed window size =======
 clock_label = Label(
     window, bg="black", fg="cyan", font=("Arial", 30, "bold"), relief="flat"
 )
-clock_label.place(x=20, y=20)
-
 
 def update_label():
     """
